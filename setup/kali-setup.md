@@ -1,7 +1,3 @@
-
-Paste this in:
-
-```markdown
 # Kali Linux Setup
 
 ## Purpose of Kali Linux in the Lab
