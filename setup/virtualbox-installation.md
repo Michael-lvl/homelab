@@ -16,10 +16,10 @@ Install Oracle VirtualBox on the host machine to provide the virtualization plat
 
 ## Verification
 
-After installation, verify the version using:
+After installation, verify the version using (must be done in the directory virtualbox is installed):
 
 ```bash
-VBoxManage --version (must be in the directory virtualbox was installed in to work)
+VBoxManage --version
 
 ## Installation Evidence
 
