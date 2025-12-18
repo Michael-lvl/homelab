@@ -20,8 +20,8 @@ After installation, verify the version using the following command:
 
 ```bash
 VBoxManage --version
+```
 
 ## Installation Evidence
 
 ![VirtualBox Version Information](../screenshots/install/virtualbox-about.png)
-
