@@ -24,4 +24,4 @@ VBoxManage --version
 
 ## Installation Evidence
 
-![VirtualBox Version Information](../screenshots/install/virtualbox-about.png)
+![VirtualBox Version Information](../assets/virtualbox-about.png)

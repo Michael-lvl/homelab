@@ -10,7 +10,7 @@ This visual representation is intended to complement the written architecture ov
 
 ## Logical Architecture Diagram
 
-![Homelab Architecture Diagram](../screenshots/architecture/architecture-diagram.png)
+![Homelab Architecture Diagram](../assets/architecture-diagram.png)
 
 
 ## Diagram Explanation

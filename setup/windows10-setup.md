@@ -30,4 +30,4 @@ Windows 10 Enterprise serves as a **target endpoint** in the lab environment. It
 
 ## Installation Evidence
 
-![Windows 10 Enterprise Installation](../screenshots/install/windows10.png)
+![Windows 10 Enterprise Installation](../assets/windows10.png)

@@ -32,4 +32,4 @@ Kali Linux is used to:
 
 ## Installation Evidence
 
-![Kali Linux Installation](../screenshots/install/kali.png)
+![Kali Linux Installation](../assets/kali.png)

@@ -30,9 +30,9 @@ The following screenshots document the VirtualBox network configuration for each
 - Windows 10 Enterprise NAT Network configuration
 
 These screenshots confirm that all systems are connected to the same NAT Network (`Null`) using Adapter 1.
-![Kali NAT Network](../screenshots/network/kali-nat-network.png)
-![Ubuntu NAT Network](../screenshots/network/ubuntu-nat-network.png)
-![Windows 10 NAT Network](../screenshots/network/windows10-nat-network.png)
+![Kali NAT Network](../assets/kali-nat-network.png)
+![Ubuntu NAT Network](../assets/ubuntu-nat-network.png)
+![Windows 10 NAT Network](../assets/windows10-nat-network.png)
 
 ## Connected Systems
 - Kali Linux (Attack & Security Testing)

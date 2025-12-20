@@ -24,4 +24,4 @@ Ubuntu is configured to support:
 
 ## Installation Evidence
 
-![Ubuntu Installation](../screenshots/install/ubuntu.png)
+![Ubuntu Installation](../assets/ubuntu.png)

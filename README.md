@@ -1,27 +1,70 @@
-# Virtualized Cybersecurity Homelab
 
-## Overview
+## High-Level Design
 
-This project documents the design and implementation of a virtualized cybersecurity homelab built using VirtualBox.
+This homelab is a virtualized cybersecurity environment designed to simulate a small enterprise network.
+It is built using Oracle VirtualBox and consists of three primary systems connected through an isolated NAT Network.
 
-The lab consists of:
-- Kali Linux (attacker / testing machine)
-- Ubuntu Linux (server / attack / testing machine)
-- Windows 10 Enterprise (endpoint)
+The architecture is intentionally simple to allow focused experimentation with networking, security testing, and system interactions while maintaining safe isolation from the host machine.
 
-All systems are connected through an isolated NAT Network to simulate a small enterprise environment.
+## Lab Components and Roles
 
-## Objectives
+| System        | Operating System        | Role in Lab                         |
+|--------------|-------------------------|--------------------------------------|
+| Kali Linux   | Kali Linux               | Attacker / Security Testing Machine |
+| Ubuntu       | Ubuntu Linux             | Internal Server / Attacker          |
+| Windows 10   | Windows 10 Enterprise    | User Endpoint                       |
 
-- Learn virtualization and network design
-- Practice ethical hacking techniques
-- Understand attacker and defender perspectives
-- Build a documented portfolio for career development
+---
 
-## Repository Structure
+## System Responsibilities
 
-- `setup/` — Operating system installation and configuration
-- `networking/` — Network design and configuration
-- `architecture/` — High-level lab design
-- `notes/` — Experiment logs and observations
-- `screenshots/` — Evidence and visual documentation
+### Kali Linux
+- Acts as the attacker and testing workstation
+- Used for reconnaissance, scanning, and exploitation simulations
+- Represents an untrusted or external threat actor
+
+### Ubuntu Linux
+- Acts as an internal server, can be used as an attacker also
+- Hosts services such as SSH and web services
+- Represents infrastructure targets within the network
+
+### Windows 10 Enterprise
+- Acts as a corporate endpoint
+- Represents a user workstation
+- Used to study endpoint behavior, security controls, and attack impact
+
+---
+
+## Network Architecture
+
+All virtual machines are connected using a VirtualBox **NAT Network** named `Null`.
+This design provides:
+- Network communication between all lab systems
+- Internet access for updates and package installation
+- Isolation from the host’s physical network
+
+---
+
+## Trust Boundaries
+
+The lab enforces logical trust boundaries:
+
+- **Untrusted Zone:** Kali Linux
+- **Trusted/Internal Zone:** Ubuntu and Windows 10
+
+These boundaries allow realistic simulation of:
+- External attacks against internal systems
+- Lateral movement scenarios
+- Defensive monitoring and response
+
+---
+
+## Design Philosophy
+
+This architecture prioritizes:
+- Simplicity over complexity
+- Clear role separation
+- Safe experimentation
+- Documentation and reproducibility
+
+The design can be expanded in the future to include additional servers, monitoring systems, or segmented networks.
