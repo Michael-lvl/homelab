@@ -1,8 +1,6 @@
 # Windows 11 – Domain Join
 
-## Purpose
-
-This document covers joining a Windows 11 Pro N client machine to the Active Directory domain and validating domain authentication.
+This documents joining a Windows 11 Pro N client machine to the Active Directory domain.
 
 ## Configuration Details
 
@@ -12,7 +10,7 @@ This document covers joining a Windows 11 Pro N client machine to the Active Dir
 
 ## Steps Performed
 
-1. Installed Windows 11 Pro N in VirtualBox
+1. I installed Windows 11 Pro N iso then added to VirtualBox
 2. Configured network adapter to NAT Network (Null)
 3. Verified connectivity to the domain controller
 4. Joined the system to the `Ayowale.com` domain(faced a little issue with getting the windows 11 to use the same network as the server
