@@ -1,14 +1,11 @@
 # Virtual IT Support Home Lab
 
-This repository documents a personal virtualized IT support environment built using Oracle VirtualBox.  
-It includes Windows 10 Enterprise, Ubuntu Linux, and Kali Linux virtual machines designed to practice:
+This repository documents a personal virtualized IT support environment built using Oracle VirtualBox.
 
 - Operating System installation and configuration
 - Basic networking setup
 - Troubleshooting common technical issues
 - Technical documentation and process workflows
-
-This lab supports learning and demonstration of entry-level Help Desk and IT support skills relevant to remote support roles.
 
 ---
 
@@ -17,6 +14,7 @@ This lab supports learning and demonstration of entry-level Help Desk and IT sup
 **Hypervisor:** VirtualBox 7.1.10r169112  
 **Guest Operating Systems:**
 - Windows 10 Enterprise
+- windows server 2022
 - Ubuntu Linux
 - Kali Linux
 
