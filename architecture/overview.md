@@ -1,6 +1,6 @@
 ## Overview
 
-This project documents the design and implementation of a virtualized homelab built using VirtualBox.
+This documents the design and implementation of a virtualized homelab built using VirtualBox.
 
 The lab consists of:
 - Kali Linux
